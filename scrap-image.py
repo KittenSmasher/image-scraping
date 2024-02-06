@@ -5,8 +5,8 @@ import os
 import csv
 
 # client_id and client_secret from Spotify for Developers
-client_id = 'xxx' 
-client_secret = 'xxx'
+client_id = 'xxxx' 
+client_secret = 'xxxx'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
